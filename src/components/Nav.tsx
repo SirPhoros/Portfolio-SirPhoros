@@ -1,13 +1,30 @@
+import {
+	BsCodeSquare,
+	BsFillRocketTakeoffFill,
+	BsFillPersonVcardFill,
+	BsFillChatSquareTextFill,
+} from 'react-icons/bs'
+import { AiFillHome } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
 export default function Nav() {
 	return (
 		<nav className="nav">
-			<Link to="/">Home </Link>
-			<Link to="/about">About </Link>
-			<Link to="/skills">Skills </Link>
-			<Link to="/project">Project </Link>
-			<Link to="/contact">Contact </Link>
+			<Link to="/">
+				<AiFillHome /> Home{' '}
+			</Link>
+			<Link to="/about">
+				<BsFillPersonVcardFill /> About{' '}
+			</Link>
+			<Link to="/skills">
+				<BsCodeSquare /> Skills{' '}
+			</Link>
+			<Link to="/project">
+				<BsFillRocketTakeoffFill /> Project{' '}
+			</Link>
+			<Link to="/contact">
+				<BsFillChatSquareTextFill /> Contact{' '}
+			</Link>
 		</nav>
 	)
 }
