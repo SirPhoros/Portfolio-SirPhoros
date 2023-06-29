@@ -20,11 +20,12 @@ export default function Nav() {
 				<BsCodeSquare /> Skills{' '}
 			</Link>
 			<Link to="/project">
-				<BsFillRocketTakeoffFill /> Project{' '}
+				<BsFillRocketTakeoffFill /> Projects{' '}
 			</Link>
 			<Link to="/contact">
 				<BsFillChatSquareTextFill /> Contact{' '}
 			</Link>
+			<div className="bottom-part"></div>
 		</nav>
 	)
 }
