@@ -12,7 +12,7 @@ export default function Contact() {
 					>
 						<BsLinkedin /> @in/cgtorrubia
 					</a>
-				</button>
+				</button>{' '}
 				<button>
 					<a
 						href="https://github.com/SirPhoros"

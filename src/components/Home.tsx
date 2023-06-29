@@ -23,7 +23,7 @@ export default function Home() {
 						<BsLinkedin />
 						LinkedIn
 					</a>
-				</button>
+				</button>{' '}
 				<button>
 					<a
 						href="https://github.com/SirPhoros"
