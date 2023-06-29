@@ -1,6 +1,4 @@
-import LinkedIn from '../../public/devicons/linkedin-original-wordmark.svg'
-import GitHub from '../../public/devicons/github-original-wordmark.svg'
-
+import { BsLinkedin, BsGithub } from 'react-icons/bs'
 export default function Home() {
 	return (
 		<>
@@ -18,20 +16,22 @@ export default function Home() {
 			</section>
 			<section className="button">
 				<button>
-					<a href="https://www.linkedin.com/in/cgtorrubia">
-						"LinkedIn"
-						<img
-							src={LinkedIn}
-							alt=""
-						/>
+					<a
+						href="https://www.linkedin.com/in/cgtorrubia"
+						target="_blank"
+					>
+						<BsLinkedin />
+						LinkedIn
 					</a>
 				</button>
 				<button>
-					<a href="https://github.com/SirPhoros">Github</a>
-					<img
-						src={GitHub}
-						alt="Github"
-					/>
+					<a
+						href="https://github.com/SirPhoros"
+						target="_blank"
+					>
+						<BsGithub />
+						Github
+					</a>
 				</button>
 			</section>
 		</>

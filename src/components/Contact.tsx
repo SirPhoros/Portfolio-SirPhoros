@@ -1,5 +1,4 @@
-import LinkedIn from '../../public/devicons/linkedin-original-wordmark.svg'
-import GitHub from '../../public/devicons/github-original-wordmark.svg'
+import { BsLinkedin, BsGithub } from 'react-icons/bs'
 
 export default function Contact() {
 	return (
@@ -11,11 +10,7 @@ export default function Contact() {
 						href="https://www.linkedin.com/in/cgtorrubia"
 						target="_blank"
 					>
-						"@in/cgtorrubia"
-						<img
-							src={LinkedIn}
-							alt=""
-						/>
+						<BsLinkedin /> @in/cgtorrubia
 					</a>
 				</button>
 				<button>
@@ -23,12 +18,8 @@ export default function Contact() {
 						href="https://github.com/SirPhoros"
 						target="_blank"
 					>
-						@SirPhoros
+						<BsGithub /> @SirPhoros
 					</a>
-					<img
-						src={GitHub}
-						alt="Github"
-					/>
 				</button>
 			</section>
 		</>
