@@ -2,7 +2,8 @@
 	max-width: 1280px;
 	margin: 0 auto;
 	padding: 2rem;
-	text-align: center;
+	text-align: justify;
+	text-align-last: left;
 }
 
 .logo {
@@ -57,6 +58,25 @@ nav {
 	box-shadow: 0 2px 2px 2px #0909093b;
 }
 
+.skills {
+	display: flex;
+}
+
+.description {
+	flex: 1;
+	padding: 20px;
+	text-align: justify;
+	text-align-last: left;
+}
+
+.imageGrids {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
 .icons {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
@@ -71,12 +91,16 @@ nav {
 	height: 50px;
 }
 
-.icons P {
+.icons p {
 	margin-top: 5px;
 	font-size: 12px;
 }
 
 @media (max-width: 768px) {
+	.skills {
+		flex-direction: column;
+	}
+
 	.icons {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -92,4 +116,10 @@ nav {
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+}
+
+.titlePage {
+	text-align: left;
+	font-size: 38px;
+	padding: 2px;
 }

@@ -34,29 +34,35 @@ export default function Skills() {
 						and coding with an understanding of <strong>cybersecurity</strong>
 					</p>
 				</div>
-				<h3>My skill-set:</h3>
-				<div className="icons">
-					{SKILLS.map((s) => (
-						<section className="skill">
-							<img
-								key={s.name}
-								src={s.path}
-								alt={s.name}
-							/>
-						</section>
-					))}
-				</div>
-				<h3>Currently Learning:</h3>
-				<div className="icons">
-					{LEARNING.map((s) => (
-						<section>
-							<img
-								key={s.name}
-								src={s.path}
-								alt={s.name}
-							/>
-						</section>
-					))}
+				<div className="imageGrids">
+					<div className="mapping">
+						<h3>My Skill-Set:</h3>
+						<div className="icons">
+							{SKILLS.map((s) => (
+								<section className="skill">
+									<img
+										key={s.name}
+										src={s.path}
+										alt={s.name}
+									/>
+								</section>
+							))}
+						</div>
+					</div>
+					<div className="mapping">
+						<h3>Currently Learning:</h3>
+						<div className="icons">
+							{LEARNING.map((s) => (
+								<section className="skill">
+									<img
+										key={s.name}
+										src={s.path}
+										alt={s.name}
+									/>
+								</section>
+							))}
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
