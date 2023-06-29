@@ -1,3 +1,6 @@
+import LinkedIn from '../../public/devicons/linkedin-original-wordmark.svg'
+import GitHub from '../../public/devicons/github-original-wordmark.svg'
+
 export default function Home() {
 	return (
 		<>
@@ -12,6 +15,24 @@ export default function Home() {
 					facilitate connections between people, ultimately enriching their
 					lives with increased comfort and convenience.
 				</p>
+			</section>
+			<section className="button">
+				<button>
+					<a href="https://www.linkedin.com/in/cgtorrubia">
+						"LinkedIn"
+						<img
+							src={LinkedIn}
+							alt=""
+						/>
+					</a>
+				</button>
+				<button>
+					<a href="https://github.com/SirPhoros">Github</a>
+					<img
+						src={GitHub}
+						alt="Github"
+					/>
+				</button>
 			</section>
 		</>
 	)

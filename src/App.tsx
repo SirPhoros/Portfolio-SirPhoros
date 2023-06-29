@@ -6,6 +6,7 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Project from './components/Projects'
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 function App() {
 	return (
@@ -33,6 +34,7 @@ function App() {
 					element={<Contact />}
 				/>
 			</Routes>
+			<Footer/>
 		</BrowserRouter>
 	)
 }
