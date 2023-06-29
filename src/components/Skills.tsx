@@ -3,8 +3,8 @@ import { SKILLS, LEARNING } from '../data/Skills'
 export default function Skills() {
 	return (
 		<main>
+			<h1 className="titlePage">Skills:</h1>
 			<section className="skills">
-				<h2>Skills</h2>
 				<div className="description">
 					<p>
 						My core skill set includes{' '}
@@ -37,27 +37,25 @@ export default function Skills() {
 				<h3>My skill-set:</h3>
 				<div className="icons">
 					{SKILLS.map((s) => (
-						<>
+						<section className="skill">
 							<img
 								key={s.name}
 								src={s.path}
 								alt={s.name}
 							/>
-							<caption>{s.name}</caption>
-						</>
+						</section>
 					))}
 				</div>
 				<h3>Currently Learning:</h3>
 				<div className="icons">
 					{LEARNING.map((s) => (
-						<>
+						<section>
 							<img
 								key={s.name}
 								src={s.path}
 								alt={s.name}
 							/>
-							<caption>{s.name}</caption>
-						</>
+						</section>
 					))}
 				</div>
 			</section>

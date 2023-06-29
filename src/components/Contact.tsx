@@ -3,7 +3,7 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs'
 export default function Contact() {
 	return (
 		<>
-			<h1>You can find me in:</h1>
+			<h1 className="titlePage">You can find me in:</h1>
 			<section className="button">
 				<button>
 					<a

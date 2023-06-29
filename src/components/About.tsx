@@ -1,6 +1,7 @@
 export default function About() {
 	return (
 		<>
+		<h1 className="titlePage">About me:</h1>
 			<p>
 				My fascination with coding began at the age of 14 when I delved into
 				small snippets of code using C and C++. Even back then, I couldn't

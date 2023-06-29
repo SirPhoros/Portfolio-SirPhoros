@@ -2,7 +2,7 @@ export default function Project() {
 	return (
 		<>
 			<section>
-				<h1>Project:</h1>
+				<h1 className="titlePage">Projects:</h1>
 				<p>
 					This is a collection of all the projects in which I have taken part.
 					Either because they were my own work, or because I was part of a group
@@ -27,6 +27,24 @@ export default function Project() {
 						question or play a game to 'hatch their egg' and receive their
 						prize.
 					</p>
+					<section className="projectButton">
+						<button>
+							<a
+								href="https://github.com/SirPhoros/love-birds"
+								target="_blank"
+							>
+								Code
+							</a>
+						</button>{' '}
+						<button>
+							<a
+								href=""
+								target="_blank"
+							>
+								Live Demo
+							</a>
+						</button>
+					</section>
 				</section>
 				<section>
 					<h2>The Hive:</h2>
@@ -50,6 +68,24 @@ export default function Project() {
 						Tools: This project has been built in JavaScript, NodeJS, React,
 						Vite, and CSS.
 					</p>
+					<section className="projectButton">
+						<button>
+							<a
+								href="https://github.com/SirPhoros/CTorrubia_nc-news_FE"
+								target="_blank"
+							>
+								Code
+							</a>
+						</button>{' '}
+						<button>
+							<a
+								href="https://thehive-news.netlify.app/articles"
+								target="_blank"
+							>
+								Live Demo
+							</a>
+						</button>
+					</section>
 				</section>
 				<section>
 					<h2>NC_News API:</h2>
@@ -83,6 +119,24 @@ export default function Project() {
 						Tools: This project has been built in JavaScript, NodeJS, Express,
 						PostgresSQL, and JEST.
 					</p>
+					<section className="projectButton">
+						<button>
+							<a
+								href="https://github.com/SirPhoros/CTorrubia-News-Solo_Project-NC"
+								target="_blank"
+							>
+								Code
+							</a>
+						</button>{' '}
+						<button>
+							<a
+								href="https://nc-news-soloproject-be.onrender.com/"
+								target="_blank"
+							>
+								Live Demo
+							</a>
+						</button>
+					</section>
 				</section>
 			</section>
 		</>
