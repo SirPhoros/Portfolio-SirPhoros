@@ -16,9 +16,10 @@ export default function Project() {
 					<section className="description">
 						<h2>Love Birds:</h2>
 						<p>
-							Built as final project of the 13-week Full Stack Northcoders
-							Bootcamp, Love Birds is a fun and interactive application designed
-							to keep the spark in long distance relationships.
+							Built as final project of the{' '}
+							<strong>13-week Full Stack Northcoders Bootcamp</strong>, Love
+							Birds is a fun and interactive application designed to keep the
+							spark in long distance relationships.
 						</p>
 						<br />
 						<p>
@@ -28,10 +29,13 @@ export default function Project() {
 							</strong>{' '}
 							A different set of tools from the one the bootcamp was taught in.{' '}
 							<br />
-							Love Birds allows users to send images, videos and more to their
-							loved ones. Upon receiving their message, users must answer a quiz
-							question or play a game to 'hatch their egg' and receive their
-							prize.
+							Love Birds allows users to{' '}
+							<strong>send images, videos and more</strong> to their loved ones.
+							Upon receiving their message, users{' '}
+							<strong>
+								must answer a quiz question or play a game to 'hatch their egg'
+							</strong>{' '}
+							and receive their prize.
 						</p>
 						<p>
 							Tools: This project has been built in{' '}
