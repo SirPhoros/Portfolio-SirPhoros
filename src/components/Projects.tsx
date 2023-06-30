@@ -22,13 +22,22 @@ export default function Project() {
 						</p>
 						<br />
 						<p>
-							This project has been built in TypeScript, Firebase, React Native
-							and TailwindCSS. A different set of tools from the one the
-							bootcamp was taught in. <br />
+							This project has been built in{' '}
+							<strong>
+								TypeScript, Firebase, React Native and TailwindCSS.
+							</strong>{' '}
+							A different set of tools from the one the bootcamp was taught in.{' '}
+							<br />
 							Love Birds allows users to send images, videos and more to their
 							loved ones. Upon receiving their message, users must answer a quiz
 							question or play a game to 'hatch their egg' and receive their
 							prize.
+						</p>
+						<p>
+							Tools: This project has been built in{' '}
+							<strong>
+								Typescript, NodeJS, React Native, Firebas, and Tailwind.
+							</strong>
 						</p>
 						<section className="projectButton">
 							<button>
@@ -67,17 +76,18 @@ export default function Project() {
 						<p>
 							The Hive is built on the API fabricated for the Back End project,
 							NC_News API (see below), which is used to request said information
-							from the different databases built on Express.
+							from the different databases built on <strong>Express.</strong>
 							<br />
-							The user will have the choice to filter the articles based on the
-							topic, but also they will have the opportunity to filter by the
-							amount of comments that the articles have, when it was published
-							among other options. Finally, they will be able to comment in the
-							articles, and vote the articles that they (dis)like the most.
+							The user will have the choice to <strong>filter</strong> the
+							articles based on the topic, but also they will have the
+							opportunity to <strong>filter</strong> by the amount of comments
+							that the articles have, when it was published among other options.
+							Finally, they will be able to comment in the articles, and vote
+							the articles that they (dis)like the most.
 						</p>
 						<p>
-							Tools: This project has been built in JavaScript, NodeJS, React,
-							Vite, and CSS.
+							Tools: This project has been built in{' '}
+							<strong>JavaScript, NodeJS, React, Vite, and CSS.</strong>
 						</p>
 						<section className="projectButton">
 							<button>
@@ -109,10 +119,11 @@ export default function Project() {
 					<section className="description">
 						<h2>NC_News API:</h2>
 						<p>
-							An API built with PostgreSQL, Express JS and Node JS, as part of
-							the BE project phase of Northcoders bootcamp. This API functions
-							as database to later on been used in "The Hive" (see above). There
-							is a list of all the available endpoints
+							An API built with{' '}
+							<strong>PostgreSQL, Express JS and Node JS</strong>, as part of
+							the <strong>BE project phase of Northcoders bootcamp.</strong>{' '}
+							This API functions as database to later on been used in "The Hive"
+							(see above). There is a list of all the available endpoints
 						</p>
 						<br />
 						<p>
@@ -120,24 +131,29 @@ export default function Project() {
 							project "The Hive", as said project will render its content by
 							calls into the API.
 							<br />
-							The API has been built using Express and PostgresSQL, with a
-							pre-made set of data provided by the course for the purpose of
-							having some initial data to fill our database.
+							The API has been built using{' '}
+							<strong>Express and PostgresSQL</strong>, with a pre-made set of
+							data provided by the course for the purpose of having some initial
+							data to fill our database.
 							<br />
-							Additionally, the process has been throughfully tested using the
-							TDD technique and JEST, making sure that the project is
-							bulletproof to SQL injections, but also to make sure that every
-							endpoint returns the demanded information, without mutating the
-							data provided.
+							Additionally, the process has been throughfully tested using
+							<strong>the TDD technique and JEST</strong>, making sure that the
+							project is <strong>bulletproof to SQL injections</strong>, but
+							also to make sure that every endpoint returns the demanded
+							information, without mutating the data provided.
 							<br />
-							On top of that testing the endpoints using JEST and TDD, Error
-							Handling procedures have been put into place, to stop the user to
-							have access to inexistent data, while offering useful and clear
-							feedback.
+							On top of that testing the endpoints using JEST and TDD,{' '}
+							<strong>
+								Error Handling procedures have been put into place
+							</strong>{' '}
+							, to stop the user to have access to inexistent data, while
+							offering useful and clear feedback.
 						</p>
 						<p>
-							Tools: This project has been built in JavaScript, NodeJS, Express,
-							PostgresSQL, and JEST.
+							Tools: This project has been built in{' '}
+							<strong>
+								JavaScript, NodeJS, Express, PostgresSQL, and JEST.
+							</strong>
 						</p>
 						<section className="projectButton">
 							<button>
