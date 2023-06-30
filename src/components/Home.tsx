@@ -20,8 +20,7 @@ export default function Home() {
 						href="https://www.linkedin.com/in/cgtorrubia"
 						target="_blank"
 					>
-						<BsLinkedin />
-						LinkedIn
+						<BsLinkedin /> LinkedIn
 					</a>
 				</button>{' '}
 				<button>
@@ -29,8 +28,7 @@ export default function Home() {
 						href="https://github.com/SirPhoros"
 						target="_blank"
 					>
-						<BsGithub />
-						Github
+						<BsGithub /> Github
 					</a>
 				</button>
 			</section>
