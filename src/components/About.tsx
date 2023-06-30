@@ -2,7 +2,7 @@ export default function About() {
 	return (
 		<>
 			<h1 className="titlePage">About me:</h1>
-			<div style={{ display: 'flex', alignItems: 'center' }}>
+			{/* <div style={{ display: 'flex', alignItems: 'center' }}>
 				<section
 					className="profilePicture"
 					style={{ marginRight: '20px' }}
@@ -19,7 +19,7 @@ export default function About() {
 						{'>>>>'} This is me!
 					</p>
 				</section>
-				<div>
+				<div> */}
 					<p>
 						My fascination with coding began at the age of 14 when I delved into
 						small snippets of code using C and C++. Even back then, I couldn't
@@ -60,8 +60,8 @@ export default function About() {
 						kind of diary to document my coding adventures and track my progress
 						along the way.
 					</p>
-				</div>
-			</div>
+				{/* </div>
+			</div> */}
 		</>
 	)
 }
