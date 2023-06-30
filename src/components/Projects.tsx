@@ -1,6 +1,6 @@
-import LoveBirds from '../../public/images/project/Love Birds.svg'
-import Hive from '../../public/images/project/Hive.svg'
-import BackEnd from '../../public/images/project/BackEnd.svg'
+import LoveBirds from '../images/project/Love Birds.svg'
+import Hive from '../images/project/Hive.svg'
+import BackEnd from '../images/project/BackEnd.svg'
 
 export default function Project() {
 	return (
