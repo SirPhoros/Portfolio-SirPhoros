@@ -55,11 +55,35 @@ export const SKILLS = [
 		name: 'Git',
 		path: '/devicons/git-original-wordmark.svg',
 	},
+	{
+		name: 'Figma',
+		path: '/devicons/figma-original.svg',
+	},
 ]
 
 export const LEARNING = [
 	{
-		name: '',
-		path: '',
+		name: 'C',
+		path: '/devicons/c-plain.svg',
+	},
+	{
+		name: 'C++',
+		path: '/devicons/cplusplus-plain.svg',
+	},
+	{
+		name: 'C Sharp',
+		path: '/devicons/csharp-plain.svg',
+	},
+	{
+		name: 'Python',
+		path: '/devicons/python-original.svg',
+	},
+	{
+		name: 'Next JS',
+		path: '/devicons/nextjs-original.svg',
+	},
+	{
+		name: 'Mongo DB',
+		path: '/devicons/mongodb-original-wordmark.svg',
 	},
 ]
