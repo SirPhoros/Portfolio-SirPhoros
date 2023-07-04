@@ -1,6 +1,7 @@
 import LoveBirds from '../images/project/Love Birds.svg'
 import Hive from '../images/project/Hive.svg'
 import BackEnd from '../images/project/BackEnd.svg'
+import Calculator from '../images/project/Calculator.png'
 
 export default function Project() {
 	return (
@@ -66,6 +67,52 @@ export default function Project() {
 						<img
 							src={LoveBirds}
 							alt="Love birds app screenshots"
+						/>
+					</section>
+				</section>
+				<section className="project">
+					<section className="description">
+						<h2>Angular Calculator:</h2>
+						<p>
+							Calculator built in <strong>Angular</strong>, to experiment with a
+							different Front End framework.
+						</p>
+						<p>
+							This calculator allows the user to: <br />
+							<br />
+							1. Enter numbers and perform calculations using the provided
+							operators. <br />
+							2. View the history of your recent operations.
+						</p>
+						<p>
+							Future implementations: <br />
+							<br />
+							1. Incorporating additional operators, such as{' '}
+							<strong>%, ± or ( )</strong>
+							<br />
+							2. Introducing a Scientific Mode for advanced mathematical
+							operations. <br />
+							3. Enhancing the user experience with a numeric keyboard input
+						</p>
+						<p>
+							This project has been built in{' '}
+							<strong>Angular, TypeScripe and Bootstrap.</strong>
+						</p>
+						<section className="projectButton">
+							<button>
+								<a
+									href="https://github.com/SirPhoros/calculator-angular"
+									target="_blank"
+								>
+									Code
+								</a>
+							</button>{' '}
+						</section>
+					</section>
+					<section className="project_img">
+						<img
+							src={Calculator}
+							alt="Calculator app screenshot"
 						/>
 					</section>
 				</section>
