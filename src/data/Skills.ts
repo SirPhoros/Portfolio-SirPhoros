@@ -59,6 +59,14 @@ export const SKILLS = [
 		name: 'Figma',
 		path: '/devicons/figma-original.svg',
 	},
+	{
+		name: 'Angular',
+		path: '/devicons/angularjs-plain.svg',
+	},
+	{
+		name: 'Bootstrap',
+		path: '/devicons/bootstrap-plain.svg',
+	},
 ]
 
 export const LEARNING = [
