@@ -42,8 +42,8 @@ nav {
 nav a {
 	display: flex;
 	align-items: center;
-	font-size: 1.2rem; /* Default font size */
-	font-weight: bold; /* Add this line to make the text bolder */
+	font-size: 1.2rem;
+	font-weight: bold; 
 }
 
 nav a svg {
@@ -53,14 +53,14 @@ nav a svg {
 /* Media query for smaller screens */
 @media (max-width: 768px) {
 	nav a {
-		font-size: 1rem; /* Adjust the font size for smaller screens */
+		font-size: 1rem; 
 	}
 }
 
 /* Media query for even smaller screens */
 @media (max-width: 480px) {
 	nav a {
-		font-size: 0.8rem; /* Adjust the font size for even smaller screens */
+		font-size: 0.8rem; 
 	}
 }
 
