@@ -1,6 +1,6 @@
 import LoveBirds from '../images/project/Love Birds.svg'
-import Hive from '../images/project/Hive.svg'
-import BackEnd from '../images/project/BackEnd.svg'
+import Hive from '../images/project/Hive.png'
+import BackEnd from '../images/project/BackEnd.png'
 import Calculator from '../images/project/Calculator.png'
 
 export default function Project() {
