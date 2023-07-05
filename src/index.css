@@ -14,6 +14,14 @@
 	-webkit-text-size-adjust: 100%;
 }
 
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: justify;
+	text-align-last: left;
+}
+
 nav {
 	font-weight: 700;
 	background-color: black;
@@ -25,7 +33,7 @@ nav {
 	display: flex;
 	justify-content: space-evenly;
 	padding: 0.5rem 0rem;
-	height: 20px; /* Adjust the height as desired */
+	height: 20px;
 	width: 100%;
 	align-items: center;
 	box-shadow: 0 2px 2px 2px #0909093b;
@@ -34,12 +42,26 @@ nav {
 nav a {
 	display: flex;
 	align-items: center;
-	font-size: 1.2rem; /* Adjust the font size as desired */
+	font-size: 1.2rem; /* Default font size */
 	font-weight: bold; /* Add this line to make the text bolder */
 }
 
 nav a svg {
 	margin-right: 0.5rem;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+	nav a {
+		font-size: 1rem; /* Adjust the font size for smaller screens */
+	}
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+	nav a {
+		font-size: 0.8rem; /* Adjust the font size for even smaller screens */
+	}
 }
 
 a {

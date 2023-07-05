@@ -10,22 +10,6 @@ button a {
 	color: white;
 }
 
-nav {
-	font-weight: 700;
-	background-color: black;
-	color: white;
-	border: solid 1px black;
-	position: sticky;
-	display: flex;
-	justify-content: space-evenly;
-	padding: 0.5rem 0rem;
-	top: 0;
-	height: 60px;
-	width: 100%;
-	align-items: center;
-	box-shadow: 0 2px 2px 2px #0909093b;
-}
-
 .skills {
 	display: flex;
 }
