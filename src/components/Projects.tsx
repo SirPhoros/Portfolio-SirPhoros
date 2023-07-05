@@ -1,4 +1,4 @@
-import LoveBirds from '../images/project/Love Birds.svg'
+import LoveBirds from '../images/project/LoveBirds.png'
 import Hive from '../images/project/Hive.png'
 import BackEnd from '../images/project/BackEnd.png'
 import Calculator from '../images/project/Calculator.png'
