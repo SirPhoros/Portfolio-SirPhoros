@@ -94,4 +94,12 @@ export const LEARNING = [
 		name: 'Mongo DB',
 		path: '/devicons/mongodb-original-wordmark.svg',
 	},
+	{
+		name: 'PHP',
+		path: '/devicons/php-plain.svg',
+	},
+	{
+		name: 'GraphQL',
+		path: '/devicons/graphql-plain-wordmark.svg',
+	},
 ]
